@@ -12,6 +12,7 @@ import Counter from './Components/Counter.jsx'
 import ColorPicker from './Components/ColorPicker.jsx'
 import UsingUpdater from './Components/UsingUpdater.jsx'
 import UseEffectComp from './Components/useEffectComp.jsx'
+import ComponentA from './Components/ComponentA.jsx'
 function App() {
       // const veg = [{id:1,name : 'tomato',calories :123},
       //   {id:2,name : 'potato' , calories : 134},
@@ -30,7 +31,9 @@ function App() {
       {/* <ColorPicker/> */}
       {/* <UsingUpdater/> */}
 
-      <UseEffectComp/>
+      {/* <UseEffectComp/> */}
+
+      <ComponentA/>
 
 
 
